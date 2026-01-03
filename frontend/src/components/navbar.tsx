@@ -12,11 +12,11 @@ export default function Navbar() {
 
         {/* Links */}
         <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600">
-          <Link href="/" className="hover:text-blue-600 transition">News</Link>
-          <Link href="/conferences" className="hover:text-blue-600 transition">Conferences</Link>
-          <Link href="/news/add" className="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+        <Link href="/" className="hover:text-blue-600 transition">News</Link>
+        <Link href="/skills" className="hover:text-blue-600 transition">Skill Sharing</Link> {/* NEW */}
+        <Link href="/news/add" className="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-lg shadow-blue-200">
             + Add News
-          </Link>
+        </Link>
         </div>
 
         {/* Profile */}
