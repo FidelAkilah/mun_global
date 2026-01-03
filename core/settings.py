@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'djoser',
     'corsheaders',
     'rest_framework.authtoken',
+    'skills',
 ]
 
 MIDDLEWARE = [
